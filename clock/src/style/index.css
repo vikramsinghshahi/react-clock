@@ -1,0 +1,101 @@
+*,
+::before,
+::after {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(34, 34, 34);
+}
+
+.timer {
+  /* background-color: white; */
+  margin: 0 auto;
+  max-width: 30rem;
+  margin-top: 3rem;
+  padding: 2rem;
+  border-radius: 7px;
+}
+
+.timer_title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: aliceblue;
+  font-size: 3rem;
+}
+
+.btn_primary {
+  display: inline-block;
+  padding: 0.7rem 1.2rem;
+  background-color: #413f3f;
+  border: none;
+  outline: none;
+  margin: 1rem;
+  border-radius: 7px;
+  color: aliceblue;
+}
+
+.btn_primary:hover {
+  background-color: #0984c2;
+}
+
+.btn_wrapper {
+  text-align: center;
+}
+
+.countdown {
+  color: aliceblue;
+  border: 1px solid #c7c9ca;
+  padding: 2rem;
+  position: relative;
+}
+
+.cross {
+  position: absolute;
+  top: 0.3rem;
+  right: 0.3rem;
+  padding: 2px 5px;
+  border-radius: 50%;
+}
+
+.coundown_title {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.display_time span {
+  font-size: 1.8rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 25%;
+}
+
+.countdown_wrapper {
+  width: 15rem;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+.col button {
+  background-color: #464343;
+  border: none;
+  outline: none;
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  color: white;
+}
+
+.countdown_time {
+  font-size: 3rem;
+}
